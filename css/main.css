@@ -215,7 +215,7 @@ h1, h2, h3, h4{
 }
 
 .contact{
-	margin-top: 170px;
+	margin-top: 172px;
 	
 
 }
@@ -275,10 +275,10 @@ a{
 	color: #E9E5D6;
 }
 #gg{
-	margin-top: 185px;
+	margin-top: 105px;
 	margin-left: 120px;
 	color: #E9E5D6;
-	margin-bottom: -70px;
+	margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1400px) 
