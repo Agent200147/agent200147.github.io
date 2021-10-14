@@ -3,216 +3,598 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ME</title>
+	<title>Gallery</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Podkova&family=Poiret+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale, shrink-to-fit=no"> -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="js/main.js"></script>
 </head>
 
-	<div class="main">
-		<div class="left">
-			<img src="img/left.jpg" alt="">
-		</div> 
-
-		<div class="right">
-			<img src="img/left.jpg" alt="">
-		</div> 
-	</div>
-
-	
 <body>
-	 
-<div class="container11">
-	 <div class="box">
-		<p>
-			AESTHETIC
-		</p>
+
+<!-- 	<div class="preloader">
+  		<div class="preloader__row">
+    		<div class="preloader__item"></div>
+    		<div class="preloader__item"></div>
+  		</div>
 	</div>
-</div>
-	
+ -->
+
+
+
+
+<!-- -----РЕГИСТРАЦИЯ----
+-----РЕГИСТРАЦИЯ----
+-----РЕГИСТРАЦИЯ---- -->
+
+<form action="#" method="post" class="regf">
+<!-- 	onsubmit="return checkform(this)" -->
+
+			<div class="reg" id="regg">
+				<p>Регистрация</p>
+				<img src="img/reg.png" alt="">
+				<div class="close close_r"><img src="img/close.png" alt=""></div>
+			</div>
+
+			<div class="log">
+				<input type="text" name="usernamer" placeholder="Логин" class="login">
+			</div>
+
+			<div class="email">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+
+			<div class="tel">
+				<input type="tel" name="number" placeholder="Телефон">
+			</div>
+
+			<div class="pass">
+				<input type="password" name="userpassr" placeholder="Пароль">
+			</div>
+
+			<div class="pass1">
+				<input type="password" name="userpass2" placeholder="Повторите пароль">
+			</div>
+
+			<div class="ch">
+				<img src="img/vector1.svg" alt="">
+				<img src="img/vector.svg" alt="">
+				<p><input type="checkbox" name="sec"> Согласен на обработку персональных данных</p>
+			</div>
+
+			<div id="error"></div>
+
+			<div class="knopkareg">
+				<input type="button" disabled="" name="zareg" class="knop" value="Зарегистрироваться">
+			</div>
+		</form>
+
+<!-- -----РЕГИСТРАЦИЯ-----
+-----РЕГИСТРАЦИЯ-----
+-----РЕГИСТРАЦИЯ----- -->
+
+
+
+
+
+
+
+<!-- -----ВХОД------
+-----ВХОД-----
+-----ВХОД----- -->
+
+	<form action="#" method="post" class="vhodf">
+
+		<div class="vhod">
+			<p>Вход</p>
+			<img src="img/vhod.png" alt="">
+			<div class="close close_v"><img src="img/close.png" alt=""></div>
+		</div>
+
+		<div class="log">
+			<input type="text" name="usernamev" placeholder="Логин" class="login">
+		</div>
+
+		<div class="pass">
+			<input type="password" name="userpassv" placeholder="Пароль">
+		</div>
+
+
+		<div class="knopkavhod">
+			<input type="submit" name="zareg" class="knopv" value="Войти">
+		</div>
+	</form>
+
+<!-- -----ВХОД------
+-----ВХОД-----
+-----ВХОД----- -->
+
+
+
+
+
 	<header id="header"class="header">
-		<div class="container">
-			<div class="shap">
-				<img src="img/nb.svg" alt="">
+		<div class="container1">
+
+
+			<div class="shapka animate__animated animate__fadeIn animate__delay-0s">
+				<div class="ham"><img src="img/menu.svg" alt=""></div>
+				
+				<img src="img/logo1.png" alt="">
+
+				<div class="navham">
+							
+						<li>
+							<a href="#header">
+								Главная
+							</a>
+						</li>
+						<li>
+							<a href="#two1">
+								Фото
+							</a>
+						</li>
+						<li>
+							<a href="#contact">
+								Контакты
+							</a>
+						</li>
+
+					</div>
+
 				<ul class="menu">
-					<li>
-						<a href="#intro">
-							Главная
-						</a>
-					</li>
-					<li>
-						<a href="#g">
-							Об учебе
-						</a>
-					</li>
-					<li>
-						<a href="#gg">
-							Увлечения
-						</a>
-					</li>
-					<li>
-						<a href="#rec">
-							Связь со мной
-						</a>
-					</li>
-					<li>
-						<a href="tel:+79005996775" target="_blank">
-							<div class="num">
-							<div class="ciphone"> 
-								<img src="img/ci_phone.svg" alt="">
-							</div>
-							<div class="tele">
-								+7(900)599-67-75
-							</div>
+					<div class="nav">
+							
+						<li>
+							<a href="#intro">
+								Главная
+							</a>
+						</li>
+						<li>
+							<a href="#two1">
+								Фото
+							</a>
+						</li>
+						<li>
+							<a href="#contact">
+								Контакты
+							</a>
+						</li>
+
+					</div>
+					
+						<div class="buttons">
+							<!-- <li class="reg">
+								<p>Регистрация</p>
+							</li>
+							<li class="vhod">
+								<p>Вход</p>
+							</li> -->
+
+							<input type="button" name="zareg" class="regb" value="Регистрация">
+							<input type="button" name="vhod" class="vhodb" value="Вход">
 						</div>
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 		</div>
+
+
+
+
+
+
+		</div>
 	</header>
 
-	<section id="intro" class="intro">
-		<div class="container">
 
+	<div class="slider wow animate__animated animate__fadeInLeft animate__delay-5s animation__duration-4s" id="slider">
+		<div class="lines line1">
 
-				<div class="descleft">
+		</div>
 
-			<h1>Добро пожаловать!</h1>
-				<div class="content">
-					Вы находитесь на странице студента ЛГТУ по имени 
-Бурлаков Никита Сергеевич. Гений, миллиардер, плэйбой, 
-филантроп и все это, к сожалению, не про меня.
-				</div>
+		<div class="sliderimg">
+			<div class="half1">
+				<img src="imgs/1.png" alt="">
+				<img src="imgs/2.png" alt="">
+				<img src="imgs/3.png" alt="">
+				<img src="imgs/4.png" alt="">
+				<img src="imgs/5.png" alt="">
+				<img src="imgs/6.png" alt="">
+				<img src="imgs/7.png" alt="">
+				<img src="imgs/8.png" alt="">
+				<img src="imgs/9.png" alt="">
+				<img src="imgs/10.png" alt="">
+				<img src="imgs/11.png" alt="">
+				<img src="imgs/12.png" alt="">
+				<img src="imgs/13.png" alt="">
+				<img src="imgs/14.png" alt="">
 
-				<div class ="cit">
-					«Все, что ни делается, к лучшему.»
-				</div>
-					<div class="mobile">
-
-						<div class ="callme">
-							<a href="tel:+79005996775" target="_blank"><img src="img/callme.svg" alt=""></a>
-						</div>
+				<img src="imgs/15.png" alt="">
+				<img src="imgs/16.png" alt="">
+				<img src="imgs/17.png" alt="">
+				<img src="imgs/18.png" alt="">
+				<img src="imgs/19.png" alt="">
+				<img src="imgs/20.png" alt="">
+				<img src="imgs/21.png" alt="">
+				<img src="imgs/22.png" alt="">
+				<img src="imgs/23.png" alt="">
+				<img src="imgs/24.png" alt="">
+				<img src="imgs/25.png" alt="">
+				<img src="imgs/26.png" alt="">
+				<img src="imgs/27.png" alt="">
+				<img src="imgs/28.png" alt="">
+			</div>
+				
+			<div class="half2">
+				
+			</div>
 						
-
-					</div>
-
-				</div>
-
-					<div class="me">
-						<img src="img/me.png" alt="">
-					</div>
-
-
-
 		</div>
-	</section>
-	
-<div class="g" id="g">
-	fgjghjyt
-</div>
 
-
-	<section id="study" class="study">
-		<div class="container">
-
-			<div class="lstuf">
-				<img src="img/lstu.png" alt="">
-				<p>Липецкий Государственный технический университет
-				</p>
-			</div>
-
-			<div class="lstudesc">
-
-				<h1>Место обучения</h1>
-					<div class="content">
-					Липецкий государственный университет — высшее учебное заведение, основанное в 1956 г. в городе Липецке. Я учусь на третьем курсе факультета автоматизации и информатики на направлении прикладной математики. 	
-					</div>
-
-					<div class="lstusait">
-						<a href="https://www.stu.lipetsk.ru/" target="_blank"><img src="img/lstu.svg" alt=""></a>
-					</div>
-					
-			</div>
-
-
-
-
-		</div>
-	</section>
-
-
-<div class="g" id="gg">
-	fgjghjyt
-</div>
-
-
-<section id="hobby" class="hobby">
-		<div class="container">
-
-
-
-
-			<div class="hobbydesc">
-
-				<h1>Увлечения</h1>
-					<div class="content">
-					Различные хобби имели место в моей жизни. К 20 годам сформировался определенный список, состоящий из занятий спортом, настройкой смартфонов, написания электронной музыки и баскетбола. Главное место конечно же занимает спорт, так как больше всего удовольствия приносит именно он. 	
-					</div>
-					
-			</div>
-
-
-			<div class="hobbyf">
-				<img src="img/activities.png" alt="">
-			</div>
-
+		<div class="lines line2">
 			
+		</div>
+	</div>
 
 
+	<section id="one" class="one animate__animated animate__fadeIn animate__delay-5s">
+		<div class="container">
+			<div class="desc" id="regg">
+				<h1>
+					Добро пожаловать!
+				</h1>
+				<div class="content">
+					Вы находитесь на странице Aesthetic Photos. Данный сайт подойдет для тех, кто хочет загрузить свои фотографии в сеть. Чтобы загрузить первые фото, загрегистрируйтесь или войдите в существующую учетную запись.
+				</div>
+			</div>
+
+			<div class="cam">
+				<img src="img/cam.png" alt="">
+			</div>
 
 
 		</div>
 	</section>
 
-
-<footer class="contact">
-	<div class="container">
-		<div class="sv">
-			<h1>Связь со мной</h1>
-			<div class="rec" id="rec">
-				<div class="vk">
-					<a href="https://vk.com/nickitos2001" target="_blank"><img src="img/vk.svg" alt=""></a>
-					<div class="sil"><a href="https://vk.com/nickitos2001" target="_blank">https://vk.com/nickitos2001</a></div>
-					
-				</div>
-
-				<div class="inst">
-					<a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fburlakov_n%3Futm_medium%3Dcopy_link&cc_key=" target="_blank"><img src="img/inst.svg" alt=""></a>
-					<div class="sil"><a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fburlakov_n%3Futm_medium%3Dcopy_link&cc_key=" target="_blank">burlakov_n</a></div>
-				</div>
-
-
-			</div>
-		</div>
+	<div class="two1" id="two1">
 		
 	</div>
-</footer>
-<!-- <div class="prav">
-	<div class="c"><img src="img/c.svg" alt=""></div>
-	
-	<div class="pravdesc">
-		Все права защищены
-	</div>
-</div> -->
+
+	<section id="two" class="two">
+		<div class="container">
+			<h1>
+				Загружайте свои фотографии!
+			</h1>
+
+			<div class="gallery">
+				<div class="left">
+					<img src="img/left.svg" alt="">
+				</div>
+
+				<div class="galleryimg">
+
+					<div class="firstrow">
+						<img src="img/gallery/1 1.png" alt="">
+						<img src="img/gallery/2 1.png" alt="">
+						<img src="img/gallery/3 1.png" alt="">
+					</div>
+
+					<div class="secondrow">
+						<img src="img/gallery/4 1.png" alt="">
+						<img src="img/gallery/5 1.png" alt="">
+						<img src="img/gallery/6 1.png" alt="">
+					</div>
+
+					<div class="thirdrow">
+						<img src="img/gallery/7 1.png" alt="">
+						<img src="img/gallery/8 1.png" alt="">
+						<img src="img/gallery/9 1.png" alt="">
+					</div>
+
+<!-- 					<div class="row4">
+						
+					</div> -->
+				</div>
+
+				<div class="right">
+					<img src="img/right.svg" alt="">
+				</div>
+			</div>
+
+
+
+
+
+
+
+		</div>
+	</section>
+
+
+
+
+	<footer class="contact" id="contact">
+		<div class="container">
+
+			<div class="conhed">
+				<h1>Контакты</h1>
+			</div>
+
+			<div class="icons">
+				<a href="https://vk.com/nickitos2001" target="_blank"><img src="img/icons/vk2.png" alt=""></a>
+				<a href="https://instagram.com/burlakov_n?utm_medium=copy_link" target="_blank"><img src="img/icons/insta2.png" alt=""></a>
+				<a href="mailto:nickita20012001@mail.ru" target="_blank"><img src="img/icons/mail2.png" alt=""></a>
+			</div>
+
+			<div class="prav">
+				<img src="img/icons/Vector.png" alt="">
+				<h1>
+					Все права защищены
+				</h1>
+			</div>
+
+		</div>
+	</footer>
+
+
+
+<script>
+	// -----ПРЕЛОАДЕР-----
+
+    window.setTimeout(function () {
+    	document.body.classList.add('loaded', 'loaded_hiding');
+
+    }, 4000);
+    window.setTimeout(function(){
+    	document.body.classList.add('loadeds');
+    	document.body.classList.remove('loaded_hiding');
+    }, 5500);
+
+// -----ПРЕЛОАДЕР-----
+
+
+
+
+
+    var knop = document.querySelector('.knop')
+	var chh = document.querySelector('.ch')
+
+	var form_r = document.querySelector('.regf')
+	var form_v = document.querySelector('.vhodf')
+	var open_r = document.querySelector('.regb')
+	var close_r = document.querySelector('.close_r')
+
+	var open_v = document.querySelector('.vhodb')
+	var close_v = document.querySelector('.close_v')
+
+	var con = document.getElementsByClassName('container')
+	var conn = document.querySelector('.container1')
+	var slider = document.querySelector('.sliderimg')
+	var lines = document.getElementsByClassName('lines')
+
+
+
+
+
+
+
+
+	function Open_r(){
+		console.log(con);
+		for(var i = 0; i < con.length; i++){
+			// con[i].style.opacity = '0.3';
+			con[i].style.filter = 'blur(7px)';
+		}
+
+		for(var j = 0; j < lines.length; j++){
+			// lines[j].style.opacity = '0.3';
+			lines[j].style.filter = 'blur(7px)';
+		}
+
+		// conn.style.opacity = '0.3';
+		conn.style.filter = 'blur(7px)';
+
+		// slider.style.opacity = '0.3';
+		slider.style.filter = 'blur(7px)';
+
+		form_r.style.display = 'block';
+		}
+
+
+
+
+
+	function Close_r(){
+		for(var i = 0; i < con.length; i++){
+			con[i].style.opacity = '1';
+			con[i].style.filter = '';
+		}
+
+		for(var j = 0; j < lines.length; j++){
+			lines[j].style.opacity = '1';
+			lines[j].style.filter = '';
+		}
+
+
+		conn.style.opacity = '1';
+		conn.style.filter = '';
+
+		slider.style.opacity = '1';
+		slider.style.filter = '';
+
+		form_r.style.display = 'none';
+	}
+
+
+
+
+
+	function Open_v(){
+		console.log(con);
+		for(var i = 0; i < con.length; i++){
+			// con[i].style.opacity = '0.3';
+			con[i].style.filter = 'blur(7px)';
+		}
+
+		for(var j = 0; j < lines.length; j++){
+			// lines[j].style.opacity = '0.3';
+			lines[j].style.filter = 'blur(7px)';
+		}
+
+		// conn.style.opacity = '0.3';
+		conn.style.filter = 'blur(7px)';
+
+		// slider.style.opacity = '0.3';
+		slider.style.filter = 'blur(7px)';
+
+		form_v.style.display = 'block';
+		}
+
+
+
+
+	function Close_v(){
+		for(var i = 0; i < con.length; i++){
+			con[i].style.opacity = '1';
+			con[i].style.filter = '';
+		}
+
+		for(var j = 0; j < lines.length; j++){
+			lines[j].style.opacity = '1';
+			lines[j].style.filter = '';
+		}
+
+
+		conn.style.opacity = '1';
+		conn.style.filter = '';
+
+		slider.style.opacity = '1';
+		slider.style.filter = '';
+
+		form_v.style.display = 'none';
+	}
+
+
+
+
+
+	open_r.addEventListener('click', Open_r);
+	close_r.addEventListener('click', Close_r)
+
+	open_v.addEventListener('click', Open_v);
+	close_v.addEventListener('click', Close_v)
 	
 
+
+
+// -----ВАЛИДАЦИЯ ФОРМЫ-----
+
+	chh.addEventListener('click', function(){
+		this.classList.toggle('active');
+		knop.classList.toggle('active');
+		knop.toggleAttribute("disabled");
+	})
+
+	
+	function checkform(f){
+		var f = document.querySelector('.regf')
+		var name = f.usernamer.value;
+		var email = f.email.value;
+		var number = f.number.value;
+		var userpassr = f.userpassr.value;
+		var userpass2 = f.userpass2.value;
+
+		var error = "";
+
+		if(name == "" || email == "" || number == "" || userpassr == "" ||userpass2 == "")
+			error = "Заполните все поля!";
+
+		else if(userpassr != userpass2)
+			error += "Пароли должны совпадать!";
+
+		else if( isNaN(number) )
+			error += "Номер телефона должен содержать цифры!";
+
+		if(error != ""){
+			document.getElementById('error').innerHTML = error;
+			// return false;
+		}
+		else {
+			alert("Все данные корректно заполнены!");
+			console.log("\nЛогин: ", name)
+			console.log("email: ", email)
+			console.log("Номер телефона: ", number)
+			console.log("Пароль: ", userpassr);
+			f.usernamer.value = '';
+			f.email.value = '';
+			f.number.value = '';
+			f.userpassr.value = '';
+			f.userpass2.value = '';
+			chh.classList.remove('active');
+			knop.classList.remove('active');
+			document.getElementById('error').innerHTML = error;
+			knop.toggleAttribute("disabled");
+			// return true;
+				
+		}
+
+}
+
+
+
+// 	function checkform(f){
+// 		var name = f.usernamer.value;
+// 		var email = f.email.value;
+// 		var number = f.number.value;
+// 		var userpassr = f.userpassr.value;
+// 		var userpass2 = f.userpass2.value;
+
+// 		var error = "";
+
+// 		if(name == "" || email == "" || number == "" || userpassr == "" ||userpass2 == "")
+// 			error = "Заполните все поля!";
+
+// 		else if(userpassr != userpass2)
+// 			error += "Пароли должны совпадать!";
+
+// 		else if( isNaN(number) )
+// 			error += "Номер телефона должен содержать цифры!";
+
+// 		if(error != ""){
+// 			document.getElementById('error').innerHTML = error;
+// 			return false;
+// 		}
+// 		else {
+// 			alert("Все данные корректно заполнены!");
+// 			// Console.log(name, email, number, userpassr, userpass2)
+// 			return true;
+				
+// 		}
+
+// }
+
+
+var zar = document.querySelector('.knopkareg')
+zar.addEventListener('click', checkform)
+
+
+var navham = document.querySelector('.navham')
+var hamm = document.querySelector('.ham')
+
+hamm.addEventListener('click', function(){
+	navham.classList.toggle('active')
+})
+
+// -----ВАЛИДАЦИЯ ФОРМЫ-----
+
+
+
+
+</script>
 </body>
 </html>
